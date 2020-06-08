@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+.cache/
+build/
+dist/
+yarn-error.log
+.npmrc
+public/manju-show.js
+public/manju-show.css
+public/*.png
