@@ -7,8 +7,13 @@
   let contents;
 
   onMount(async () => {
-    let markdown = await get_file("./ppt.md");
-    contents = parseAndTransform(markdown);
+    let search = window.location.search;
+    if (search.length > 0) {
+      let markdown = await get_file(search.substring(1));
+      contents = parseAndTransform(markdown);
+    } else {
+      contents = "No show available!";
+    }
   });
 
   afterUpdate(async () => {
