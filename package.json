@@ -1,7 +1,7 @@
 {
   "name": "manju-show",
   "description": "Slide show for manju-web",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --content-base public",
@@ -51,9 +51,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "load-script2": "^2.0.5",
     "markdown-it": "^11.0.0",
     "markdown-it-br": "^1.0.0",
-    "markdown-it-katex": "^2.0.3",
     "markdown-it-sup": "^1.0.0",
     "nodeppt-js": "^2.2.0",
     "nodeppt-parser": "^2.2.0",

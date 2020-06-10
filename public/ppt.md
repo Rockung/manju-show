@@ -6,7 +6,7 @@ js:
 plugins:
     - echarts: {theme: infographic}
     - mermaid: {theme: forest}
-    - katex
+    - MathJax
 
 <slide class="bg-black-blue aligncenter" image="https://cn.bing.com/az/hprichbg/rb/RainierDawn_EN-AU3730494945_1920x1080.jpg .dark">
 
@@ -1032,11 +1032,11 @@ graph TD
 
 <slide class="aligncenter">
 
-## Plugins: KaTex
+## Plugins: MathJax
 
 <slide class="bg-gradient-v" :class="size-60">
 
-## KaTex {.aligncenter}
+## MathJax {.aligncenter}
 
 | equation                                                                                                                                                                  | description                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |

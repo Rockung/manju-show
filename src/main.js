@@ -1,7 +1,12 @@
 /* eslint-disable no-undef */
 
 import App from './App';
+
+import registerExtensions from './extentions';
 import { ManjuShow } from './version';
+
+// FIXME: Extensions may be loaded when they are needed.
+registerExtensions();
 
 window.ManjuShow = ManjuShow;
 
